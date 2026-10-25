@@ -32,6 +32,7 @@ npx skills add valentijnkap/agent-skills --skill create-pr-enhanced
 
 ```text
 agent-skills/
+├── LICENSE
 ├── README.md
 └── skills/
     ├── project-init/
@@ -51,3 +52,7 @@ The skills CLI discovers skills in `skills/<name>/SKILL.md`. Do not add a `SKILL
 2. Set the `name` field in frontmatter to match the directory name.
 3. Add a row to the table in this README.
 4. Verify discovery: `npx skills add . --list` from this repository.
+
+## License
+
+[MIT](LICENSE). You may use, copy, and change these skills, including the templates that `project-init` writes into a project.
