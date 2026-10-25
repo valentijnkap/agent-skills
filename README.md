@@ -1,6 +1,6 @@
 # agent-skills
 
-A single repository of Cursor agent skills. Each skill lives in its own directory under `skills/`.
+A single repository of agent skills for coding assistants. Skills are maintained here for use with Cursor, Codex, Claude Code, and other agents that support the [skills CLI](https://github.com/vercel-labs/skills)—whichever tool you or your team uses. Each skill lives in its own directory under `skills/`.
 
 Install every skill globally:
 
