@@ -1,6 +1,6 @@
 # create-pr-enhanced
 
-Agent skill that opens a GitHub pull request according to the conventions and pull request template of the repository you are working in.
+Agent skill that opens a GitHub or Bitbucket Cloud pull request according to the conventions and pull request template of the repository you are working in. GitHub uses a GitHub MCP server or `gh`. Bitbucket Cloud uses the `bkt` CLI.
 
 The skill reads the current branch, the intended base branch, and the full diff. It fills the repository template, prefers `.github/pull_request_template.md`, and also checks the usual root and docs locations. A template that exists only on the feature branch is used. The pull request is created only when you ask for it.
 
