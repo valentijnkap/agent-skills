@@ -1,0 +1,8 @@
+# Agent rules
+
+- Write every plan in `docs/plans/`. Name the file with the date and the subject: `docs/plans/YYYY-MM-DD-subject.md`.
+- In a pull request, omit the Jira section when there is no Jira ticket, and omit the Plan section when no plan was used.
+- Write large decisions that determine the direction of the project in `docs/decisions/`.
+- Write everything in English. Chat conversation may be in any other language.
+- Write concise plans. Structure each plan as steps that can be tested. End every plan with open questions that can be resolved.
+- Use a subagent to execute the plan.
