@@ -42,8 +42,8 @@ agent-skills/
     │   ├── SKILL.md
     │   └── templates/
     ├── create-pr-enhanced/
-        ├── README.md
-        └── SKILL.md
+    │   ├── README.md
+    │   └── SKILL.md
     └── update-pr-enhanced/
         ├── README.md
         └── SKILL.md
