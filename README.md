@@ -19,6 +19,7 @@ Install one skill:
 ```bash
 npx skills add valentijnkap/agent-skills --skill project-init
 npx skills add valentijnkap/agent-skills --skill create-pr-enhanced
+npx skills add valentijnkap/agent-skills --skill update-pr-enhanced
 ```
 
 ## Skills
@@ -27,6 +28,7 @@ npx skills add valentijnkap/agent-skills --skill create-pr-enhanced
 | --- | --- | --- |
 | `project-init` | Initialize a project with README, AGENTS.md, and a GitHub pull request template. | [skills/project-init/README.md](skills/project-init/README.md) |
 | `create-pr-enhanced` | Open or draft a pull request using the current repository's PR template and contribution rules. | [skills/create-pr-enhanced/README.md](skills/create-pr-enhanced/README.md) |
+| `update-pr-enhanced` | Update an existing pull request body from its current message and latest committed changes. | [skills/update-pr-enhanced/README.md](skills/update-pr-enhanced/README.md) |
 
 ## Layout
 
@@ -39,7 +41,10 @@ agent-skills/
     │   ├── README.md
     │   ├── SKILL.md
     │   └── templates/
-    └── create-pr-enhanced/
+    ├── create-pr-enhanced/
+        ├── README.md
+        └── SKILL.md
+    └── update-pr-enhanced/
         ├── README.md
         └── SKILL.md
 ```
