@@ -26,7 +26,7 @@ npx skills add valentijnkap/agent-skills --skill update-pr-enhanced
 
 | Skill | Description | Documentation |
 | --- | --- | --- |
-| `project-init` | Initialize a project with README, AGENTS.md, and a GitHub pull request template. | [skills/project-init/README.md](skills/project-init/README.md) |
+| `project-init` | Initialize a project with README, context-aware AGENTS.md, and a GitHub pull request template. | [skills/project-init/README.md](skills/project-init/README.md) |
 | `create-pr-enhanced` | Open or draft a pull request using the current repository's PR template and contribution rules. | [skills/create-pr-enhanced/README.md](skills/create-pr-enhanced/README.md) |
 | `update-pr-enhanced` | Update an existing pull request body from its current message and latest committed changes. | [skills/update-pr-enhanced/README.md](skills/update-pr-enhanced/README.md) |
 
