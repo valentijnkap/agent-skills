@@ -20,6 +20,7 @@ Install one skill:
 npx skills add valentijnkap/agent-skills --skill project-init
 npx skills add valentijnkap/agent-skills --skill create-pr-enhanced
 npx skills add valentijnkap/agent-skills --skill update-pr-enhanced
+npx skills add valentijnkap/agent-skills --skill developer-learning
 ```
 
 ## Skills
@@ -29,6 +30,7 @@ npx skills add valentijnkap/agent-skills --skill update-pr-enhanced
 | `project-init` | Initialize a project with README, context-aware AGENTS.md, and a GitHub pull request template. | [skills/project-init/README.md](skills/project-init/README.md) |
 | `create-pr-enhanced` | Open or draft a pull request using the current repository's PR template and contribution rules. | [skills/create-pr-enhanced/README.md](skills/create-pr-enhanced/README.md) |
 | `update-pr-enhanced` | Update an existing pull request body from its current message and latest committed changes. | [skills/update-pr-enhanced/README.md](skills/update-pr-enhanced/README.md) |
+| `developer-learning` | Research software development topics and teach them with explanations, trade-offs, code examples, and quizzes. | [skills/developer-learning/README.md](skills/developer-learning/README.md) |
 
 ## Layout
 
@@ -44,7 +46,10 @@ agent-skills/
     ├── create-pr-enhanced/
     │   ├── README.md
     │   └── SKILL.md
-    └── update-pr-enhanced/
+    ├── update-pr-enhanced/
+    │   ├── README.md
+    │   └── SKILL.md
+    └── developer-learning/
         ├── README.md
         └── SKILL.md
 ```
